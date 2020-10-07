@@ -58,6 +58,8 @@ This repo provides a brief overview of public datasets currently held on the HPC
 #     └── Readme.md
 #____________________________
 ```
+# Code
+Some generic code is included in this repository that mainly pertains to processing freesurfer on the cluster and or R functions around parsing output and reorganising data.
 
 # Individual datasets
 ## ABIDE
@@ -96,8 +98,7 @@ Longitudinal preschool dataset (up to 8 time-points)
 
 ## HBN
 https://data.healthybrainnetwork.org/main.php   
-https://github.com/rb643/HBN
-Longitudinal preschool dataset (up to 8 time-points)   
+https://github.com/rb643/HBN 
 - n: 1592   
 - age: 6+ years   
 - modalities: T1, DTI, Rest, Movie   
