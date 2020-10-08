@@ -62,6 +62,11 @@ This repo provides a brief overview of public datasets currently held on the HPC
 Some generic code is included in this repository that mainly pertains to processing freesurfer on the cluster and or R functions around parsing output and reorganising data.
 
 # Individual datasets
+
+[demographics map]('./Figures/BHG.html')
+
+
+
 ## ABIDE
 http://fcon_1000.projects.nitrc.org/indi/abide/   
 Autism Brain Imaging Database Exchange, 50/50 autism and neurotypical, mainly young adults, mainly males   
@@ -98,7 +103,7 @@ Longitudinal preschool dataset (up to 8 time-points)
 
 ## HBN
 https://data.healthybrainnetwork.org/main.php   
-https://github.com/rb643/HBN 
+https://github.com/rb643/HBN
 - n: 1592   
 - age: 6+ years   
 - modalities: T1, DTI, Rest, Movie   
