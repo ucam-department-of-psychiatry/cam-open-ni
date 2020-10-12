@@ -56,28 +56,26 @@ Finally, when making use of this resource please acknowledge the following fundi
 #     ├── BIDS
 #     │   └── derivatives
 #     │   │   └── freesurfer
-#     │   │        └── sub<>
-#     │   │            └── ses<>
-#     │   │                └── sub<>
-#     │   └── sub<>
-#     │   │   └──ses<>
-#     │   │         └── <sub>
-#     │   │             └── anat
-#     │   │             └── func
+#     │   │        └── <sub>
+#     │   │            └── <ses>
+#     │   │                └── <sub>
+#     │   └── <sub>
+#     │   │   └── <ses>
+#     │   │          └── anat
+#     │   │          └── func
 #     └── participants.tsv
 #     └── Readme.md
 # └── ADHD200
 #     ├── BIDS
 #     │   └── derivatives
 #     │   │   └── freesurfer
-#     │   │        └── sub<>
-#     │   │            └── ses<>
-#     │   │                └── sub<>
-#     │   └── sub<>
-#     │   │   └──ses<>
-#     │   │         └── <sub>
-#     │   │             └── anat
-#     │   │             └── func
+#     │   │        └── <sub>
+#     │   │            └── <ses>
+#     │   │                └── <sub>
+#     │   └── <sub>
+#     │   │   └── <ses>
+#     │   │         └── anat
+#     │   │         └── func
 #     └── participants.tsv
 #     └── Readme.md
 #____________________________
