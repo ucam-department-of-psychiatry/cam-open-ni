@@ -201,6 +201,15 @@ Southwest University Adult Lifespan Dataset
 - derived: freesurfer
 > Access protocol:: fully open
 
+## WAYNE-11
+http://fcon_1000.projects.nitrc.org/indi/retro/wayne_11.html     
+Wayne State longitudinal dataset
+- n: 200   
+- age: 18+  
+- modalities: T1, rest
+- derived: freesurfer
+> Access protocol:: fully open
+
 # Human Connectome Project Datasets
 > Access protocol:: All HCP datasets can be accessed with one DUA through NIMH Data Repository
 
