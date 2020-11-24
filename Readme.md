@@ -31,6 +31,7 @@ This repo provides a brief overview of public datasets currently held on the HPC
  * [NIMH Data Archive datasets](#nimh-data-archive-datasets)
     * [BSNIP](#bsnip)
     * [IBIS](#ibis)
+    * [FemaleASD](#FemaleASD)
     * [NIHPD](#nihpd)
     * [UCSD](#ucsd)
 
@@ -295,6 +296,14 @@ Longitudinal data autism high risk, up to 3 time-points
 - age: 0-2   
 - modalities: T1,  
 - derived: freesurfer (infant fs)
+
+## FemaleASD
+https://nda.nih.gov/edit_collection.html?id=2021
+Sex balanced cohort of autism
+- n: 300+
+- age: 18+
+- modalities: T1,  
+- derived: freesurfer
 
 ## NIHPD
 Longitudinal data, up to 3 time-points
