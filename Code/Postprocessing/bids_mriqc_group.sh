@@ -1,5 +1,6 @@
 #!/bin/bash
-session=$1
+bids_root_dir=$1
+session=$2
 
 module load singularity/current
 module load fsl/6.0.1
@@ -13,17 +14,14 @@ mem=12 #gb#docker or singularity
 
 #Run MRIQC
 echo ""
-echo "Running MRIQC on group for session $session"
+echo "Running MRIQC on whole group for session $session"
 echo ""
 
 singularity run /rds/user/rb643/hpc-work/Tools/mriQC/mriqc15.simg \
   $bids_root_dir $bids_root_dir/derivatives/mriqc/${subj} \
   group \
   --session-id $session \
-  --participant_label ${subj} \
   --n_proc $nthreads \
-  --hmc-fsl \
-  --correct-slice-timing \
   --mem_gb $mem \
   --float32 \
   --no-sub \
